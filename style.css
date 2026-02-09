@@ -1,0 +1,137 @@
+*,
+*:before ,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg,#8053ec, #d161ff );
+}
+
+.countainer {
+    width: 40%;
+    min-width: 700px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    padding: 30px 40px;
+    -webkit-transform: translate(-50% , -50%);
+    -moz-transform: translate(-50% , -50%);
+    -ms-transform: translate(-50% , -50%);
+    -o-transform: translate(-50% , -50%);
+}
+
+#NewTask {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#NewTask input {
+    width: 70%;
+    padding: 12px;
+    font-size: 22px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    font-weight: 750;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+#NewTask button {
+    width: 25%;
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    background-color: #8053ec;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 750;
+    cursor: pointer;
+    border: 2px solid #8053ec;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+#NewTask button:hover {
+    background-color: #d161ff;
+    border: 2px solid #d161ff;
+}
+
+#NewTask button:focus {
+    outline: none;
+    border-color: #8053ec;
+}
+
+#tasks {
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 100%;
+    position: relative;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.task {
+    background-color: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.task span {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+
+.task button {
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+    color: #8053ec;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.task button:hover {
+    color: #d161ff;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: black;
+}
+
+
+
